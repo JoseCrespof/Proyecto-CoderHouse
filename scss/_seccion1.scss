@@ -1,0 +1,38 @@
+
+.area_motiva {
+    padding-bottom: 100px;
+    background-color: rgba(205, 247, 121, 0.671);}
+    @media (min-width: 1199px) {
+      .area_motiva {
+        padding-bottom: 40px; } }
+
+
+.motiva_texto{
+    color: black;
+    width: 100%;
+    text-align: center; 
+    p {
+        margin-bottom: 0px;
+        font-weight: 350;
+        
+       }  
+    
+}
+
+.motiva_titulo {
+    padding-top: 0px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+@media (max-width: 1199px) {
+      .motiva_titulo {
+        margin-bottom: 50px; } }
+
+@media (min-width: 576px) {
+.motiva_titulo{
+padding-top: 25px;
+}
+
+}

@@ -1,0 +1,11 @@
+.area_quienes{
+    @extend .area_motiva
+}
+
+.quienes_texto{
+    @extend .motiva_texto
+}
+
+.quienes_titulo{
+    @extend .motiva_titulo 
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greening</title>
+    <!--Link BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/Estilo.css">
+    <!-- -->
+    <meta name="description" content="Este es el sitio web de un emprendimiento de servicios y consultoria para el desarrollo y la gestion sustentable">
+    <meta name="keywords" content="MEDIO AMBIENTE, SUSTENTABILIDAD, CONSULTORIA, EFICIENCIA ENERGETICA">
+</head>
+<!--Mi Idea para la página es un Landing Page, pero para cumplir con la consigna de los 5 archivos html, también adjunto las secciones por fuera del index. El nav del index está linqueado con las secciones dentro del mismo, el nav de los html de cada sección está linkeado a ellas-->
+<body class="body">
+    <!-- INICIO NAVBAR-->
+    <header class="navegador">    
+    
+        <!--Barra NAV BS-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Imagenes/Logo Nav.PNG" alt="" width="55" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav" justify-content-end>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#motiva">Qué nos motiva</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hacemos">Qué hacemos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quienes">Quiénes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!--Fin NAV BS-->
+
+    </header>
+    <!-- FIN  NAVBAR-->
+
+    <!-- INICIO PORTADA-->
+    <section id= "Portada" class="container-fluid">
+
+       <div id="carouselExampleCaptions" class="carousel slide d-none d-md-flex" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-light">
+                    <img src="Imagenes/Logo Portada.png" class="d-block w-70" alt="...">
+                </div>
+                <div class="carousel-item bg-primary">
+                    <img src="Imagenes/Portada2d.png" class="d-block w-70" alt="...">          
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <img id= "ImgSM" src="Imagenes/Logo.png" class="img-fluid d-none d-sm-flex d-md-none" alt="...">
+    </section>
+    <!-- FIN PORTADA -->
+
+    <!-- SECCION 1 - Que nos motiva -->
+    <section class="area_motiva" id="motiva">
+        <div class="container">
+            <div class="motiva_titulo"><h2><strong>| QUE NOS MOTIVA |</strong></h2></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col motiva_texto">
+                    <P> El propósito de GREENING es Impulsar y acelerar la
+                        transformación de las personas, empresas y organizaciones
+                        hacia el desarrollo sostenible. <br>
+                        Aspiramos a crear nuevos sistemas y modelos
+                        económico-productivos que ofrezcan mejores resultados
+                        para las personas y el ambiente.</P></div>
+                    
+                    <div class="col d-none d-md-flex ">
+                        <img src="Imagenes/areaMotiva2.png" alt="">
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion 1-->
+
+    <!--Seccion 2 - Qué Hacemos -->
+    <section class="area_hacemos" id="hacemos">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="hacemos_titulo">
+                    <h2 > <strong>| QUE HACEMOS |</strong></h2>
+                </div>
+            </div>
+          </div>
+          <div class="row feature_inner">
+            <div class="col-lg-4 col-md-6">
+              <div class="hacemos_item">
+                    <a href="" target="blank">
+                    <img src="Imagenes/que hacemos.png" class="img-fluid rounded" alt="">
+                    </a>
+                    <h4>Consultoría Estrategica</h4>
+                    <p>Elaboramos planes audaces y convincentes que demuestren cómo las organizaciones crean nuevo valor para los clientes y marcan la diferencia en el mercado. 
+                        Trabajamos con los equipos de liderazgo para visualizar el futuro que la organización quiere crear y brindamos decisiones estratégicas generales para poder concretarlo.
+                    </p>
+              </div>
+              
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="hacemos_item">
+                <a href="" target="blank">
+                  <img src="Imagenes/que hacemos.png" class="img-fluid rounded" alt="">
+                </a>
+                <h4>Diagnóstico y Gestión Ambiental</h4>
+                <p>Acompañamos la gestión sustentable de las personas y organizaciones, potenciando sus fortalezas
+                    y trabajando en sus desafíos a través del desarrollo de herramientas eficientes.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="hacemos_item">
+                <a href="" target="blank">
+                  <img src="Imagenes/que hacemos.png" class="img-fluid rounded" alt="">
+                </a>
+                <h4>Análisis de Procesos y procedimientos</h4>
+                <p>Asesoramos a la obra y a la industria. Diseñamos los procedimientos más eficientes para optimizar el uso de los recursos 
+                    (personas, maquinaria, materiales, información, energía y tecnología) de un sistema industrial o civil para fabricar un producto o proveer un servicio. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Fin Seccion 2 -->
+
+    <!-- Seccion 3 - Quiene somos -->
+    <section class= "area_quienes" id= "quienes">
+        <div class="container">
+            <div class="quienes_titulo"><h2 ><strong>| QUIENES SOMOS |</strong></h2></div>
+            <div class="container">
+                <div class="row">
+                                        
+                    <div class="col d-none d-md-flex ">
+                        <img src="Imagenes/areaQuienes.png" alt="">
+                    </div>
+
+                    <div class="col quienes_texto">
+                        <P> En Greening apuntamos a revolucionar el concepto de desarrollo y nuestra pasión por contagiar las acciones éticas en la industria actual nos empodera día a día.
+
+                        Somos un equipo de ingenieras y profesionales con amplia experiencia en el sector industrial. Después de muchos años trabajando en calidad, ambiente, riesgos, procesos y abastecimiento unimos fuerzas y decidimos agilizar el camino hacia la sustentabilidad brindando soluciones eficientes y precisas.
+                        
+                        Trabajamos a medida y de forma artesanal. Somos capaces de identificar nuestras fallas para trabajar sobre ellas y volvernos mejores.</P>
+                    </div>
+               
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- Fin Seccion 3 -->
+
+    <!-- Seccion 4 - Contacto -->
+    <section class="area_contacto" id="contacto">
+        
+        <!--Inicio contacto BS-->
+        <div class="contacto_titulo">
+            <h2><strong>| CONTACTO |</strong></h2>
+        </div>
+        <div class="container">
+           
+            <div class="row">
+                <div class="col d-none d-md-flex">
+                    <a href="#">
+                        <img src="Imagenes/Imagen contacto.PNG" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <form class="contacto_form">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                            </div>
+                            <div class="col mb-3">
+                            
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Comentarios</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>  
+        <!--Fin Contacto BS-->
+    </section>
+    <!-- Seccion 4 -->
+
+    <!-- Inicio Footer-->
+    <footer class="footer">
+        <div id="area_footer" class="d-flex justify-content-between">
+            <div class="p-2 bd-highlight">
+                <p>Email@greening.com <br> Dirección: Calle falsa 123 <br> Whp: +549116-159-4565</br></p>
+            </div>
+            <div id= "footer_logo" class="p-2 bd-highlight">
+                <a href="index.html">
+                    <img src="Imagenes/Logo Nav.png" alt="logo Greening">
+                </a>
+            </div>
+            <div>
+                <div class="p-2 bd-highlight">
+                    <a href="index.html">
+                        <img src="Imagenes/facebook2.png" alt="facebook">
+                    </a>
+                    <a href="index.html">
+                        <img src="Imagenes/instagram.png" alt="instagram">
+                    </a>
+                </div>
+               
+            </div>
+        </div>    
+    </footer>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

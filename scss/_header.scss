@@ -1,0 +1,22 @@
+/* header */
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style:none;
+	justify-content: space-evenly;
+	padding: $padding-size;
+	border-bottom: 1px solid rgba(207, 207, 207, 0.705);
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: rgba(233, 229, 229, 0.438);
+  border-right: 1px solid rgba(207, 207, 207, 0.705);
+  text-align: center;
+}
+
+
+
+
